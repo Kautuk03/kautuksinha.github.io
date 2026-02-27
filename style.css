@@ -156,7 +156,17 @@ footer {
 .case-card ul li {
   margin-bottom: 8px;
 }
+.section.alt ul {
+  list-style-position: inside; 
+  padding-left: 0;             
+  margin-left: 0;              
+}
 
+.section ul {
+  list-style-position: inside; 
+  padding-left: 0;             
+  margin-left: 0;              
+}
 /* .impact-card {
   border-left: 4px solid #0f172a;
 } */
