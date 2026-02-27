@@ -167,6 +167,15 @@ footer {
   padding-left: 0;             
   margin-left: 0;              
 }
+
+.resume-btn {
+  background: #2563eb;
+  color: white !important;
+}
+
+.resume-btn:hover {
+  background: #1e40af;
+}
 /* .impact-card {
   border-left: 4px solid #0f172a;
 } */
