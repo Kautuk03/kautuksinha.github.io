@@ -168,19 +168,40 @@ footer {
   margin-left: 0;              
 }
 
+.contact-premium {
+  background: #0f172a;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-premium h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.contact-subtext {
+  color: #cbd5e1;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 500px;
-  margin: auto;
 }
 
 .contact-form input,
 .contact-form textarea {
   padding: 12px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: none;
   font-size: 1rem;
 }
 
@@ -197,6 +218,23 @@ footer {
 
 .contact-form button:hover {
   background: #1e40af;
+}
+
+.contact-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-links a {
+  color: #93c5fd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
 }
 /* .impact-card {
   border-left: 4px solid #0f172a;
