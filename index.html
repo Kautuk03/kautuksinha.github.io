@@ -155,21 +155,32 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <h2>Contact Me</h2>
-    <form action="https://formspree.io/f/xpqjnzrv" method="POST" class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Kautuk Sinha</p>
-</footer>
-
+<section class="section contact-premium">
+    <div class="container contact-container">
+      <h2>Let’s Connect</h2>
+      <p class="contact-subtext">
+        I’m currently open to Data Engineering opportunities focused on scalable Azure data platforms and enterprise
+        data modernization.
+      </p>
+      <form action="https://formspree.io/f/xpqjnzrv" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/kautuk-sinha/" target="_blank">LinkedIn</a>
+        <a href="Kautuk_Sinha_Data_Engineer_March.pdf" target="_blank">View Resume</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>© <span id="year"></span> Kautuk Sinha</p>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+  
 </body>
 </html>
